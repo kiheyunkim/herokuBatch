@@ -1,0 +1,6 @@
+techTree:
+  datasource:
+    url: ""
+    username:
+    password:
+    dirverClassName:

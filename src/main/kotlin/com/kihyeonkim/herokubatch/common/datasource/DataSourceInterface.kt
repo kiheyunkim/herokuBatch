@@ -1,8 +1,8 @@
 package com.kihyeonkim.herokubatch.common.datasource
 
 interface DataSourceInterface {
-	val url: String
-	val username: String
-	val password: String
-	val driverClassName: String
+	var url: String
+	var username: String
+	var password: String
+	var driverClassName: String
 }

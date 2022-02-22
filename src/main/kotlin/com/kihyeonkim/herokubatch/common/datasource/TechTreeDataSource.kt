@@ -5,10 +5,10 @@ import org.springframework.stereotype.Component
 
 
 @Component
-@ConfigurationProperties(prefix = "tech-tree.datasource")
+@ConfigurationProperties(prefix = "tech-tree")
 data class TechTreeDataSource(
-	override val url: String = "",
-	override val username: String = "",
-	override val password: String = "",
-	override val driverClassName: String = ""
+	override var url: String = "",
+	override var username: String = "",
+	override var password: String = "",
+	override var driverClassName: String = ""
 ) : DataSourceInterface

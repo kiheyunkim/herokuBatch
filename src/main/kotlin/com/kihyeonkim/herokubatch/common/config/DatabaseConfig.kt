@@ -13,7 +13,7 @@ import javax.sql.DataSource
 @Configuration
 class DatabaseConfig {
 	@Autowired
-	private lateinit var techTreeDataSource: TechTreeDataSource;
+	private lateinit var techTreeDataSource: TechTreeDataSource
 
 	@Bean
 	fun createRouterDatasource(): DataSource {

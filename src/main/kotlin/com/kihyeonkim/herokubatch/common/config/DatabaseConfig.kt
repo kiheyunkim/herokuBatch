@@ -36,4 +36,5 @@ class DatabaseConfig {
 			.password(dataSourceInterface.password)
 			.driverClassName(dataSourceInterface.driverClassName)
 			.build()
+
 }

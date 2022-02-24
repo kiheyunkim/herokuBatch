@@ -1,6 +1,9 @@
-techTree:
-  datasource:
-    url: ""
-    username:
-    password:
-    dirverClassName:
+tech-tree:
+  url: 1234
+  username: 12342
+  password: 12343
+  driver-class-name: org.postgresql.Driver
+
+logging:
+  level:
+    root: debug
